@@ -7,6 +7,7 @@ function guardarDatos() { //funcion que guarda los datos en el localStorage
 		$("#clave").val('');//se vacea los inputs
 		$("#valor").val('');
 		comentario();
+		console.log(localStorage)
 	} 
 }
 
@@ -14,10 +15,10 @@ function comentario() { //funcion que imprime los comentarios
 	$("#ale").empty();
 	if (localStorage.length > 0) { //cuando hay datos
 		$.each(localStorage, (key, value)=>{
-			var array = value.split(','); //se crea un array con los valores, nombre y comentario
+			let array = value.split(','); //se crea un array con los valores, nombre y comentario
 			$("<div>").addClass('comentario row').append(
-				$('<div>').addClass('col-md-2 col-sm-4 col-xs-4 text-center noo').append(
-					$("<h3>").addClass('fa fa-user-circle fa-fw')
+				$('<div>').addClass('col-md-2 col-sm-4 col-xs-4 text-center').append(
+					$("<h2>").addClass('fa fa-user-circle fa-fw')
 				)
 			).append(
 				$('<div>').addClass('col-md-9 col-sm-6 col-xs-6').append(

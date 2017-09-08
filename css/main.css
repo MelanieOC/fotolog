@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
-  color:black;
+  background: url('../img/fondo.jpg') no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -7,12 +10,7 @@ header img{
   width: 20%;
   margin-left: 20px;
 }
-@media(max-width: 900px){
-  header img{
-    width: 30%;
-    margin-left: 20px;
-  }
-}
+
 img {
   width: 100%;
   margin-bottom: 30px;
@@ -26,12 +24,11 @@ a {
 
 
 h1{
-  font-size: 200%;
+  font-size: 300%;
   font-weight: bolder;
 }
 .contenido{
-   background: url('../img/fondo.jpg') no-repeat;
-  background-size: cover;
+   
   padding: 20px;
 }
 .input-group{
@@ -44,19 +41,19 @@ h1{
 }
 
 #ale{
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
+
+
 .medio{
   width: 70%;
   margin: 5px auto;
 }
 .centro{
-  width: 40%;
+  width: 30%;
   margin: 5px auto;
 }
-.noo{
-  font-size: 3em;
-}
+
 footer{
   background-color: silver;
   padding: 10px;
@@ -69,10 +66,27 @@ footer{
   margin: 10px 0;
 }
 
-.comentario i, .comentario h3{
-  
+.comentario h2{
+  font-size: 4em;
 }
 
-.comentario p{
-  color: black;
+#ale .comentario div{
+  padding: 0;
+}
+
+@media(max-width: 900px){
+  header img{
+    width: 30%;
+    margin-left: 20px;
+  }
+  .comentario h2{
+    font-size: 2.5em;
+  }
+}
+
+@media(max-width: 990px){
+  .centro{
+    width: 40%;
+  }
+}
 }
