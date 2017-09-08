@@ -9,6 +9,7 @@ function guardarDatos() {
 		$("#valor").val('');
 		comentario();
 	}
+	console.log(localStorage)
 }
 
 function comentario() {
@@ -27,6 +28,8 @@ function comentario() {
 				$("<p>").html(array[1])
 			)).appendTo("#ale");
 		})
+	} else {
+		$("<div>").addClass('col-md-9 col-sm-6 col-xs-6').append('No hay comentarios').appendTo("#ale");
 	}
 }
 

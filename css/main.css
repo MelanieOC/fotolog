@@ -1,5 +1,4 @@
 body {
-  background-color: #F5D7F4;
   color:black;
   padding: 0;
   margin: 0;
@@ -19,66 +18,47 @@ a {
   margin-bottom: 30px;
 }
 
-#bannerflog img {
-  height: 100px;
-}
-h1, p{
-  color: #F053E9 ;
-}
+
 h1{
-  font-size: 50px;
+  font-size: 200%;
   font-weight: bolder;
 }
-
+.formulario{
+   background: url('../img/fondo.jpg') no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
 .input-group{
   margin-bottom: 10px;
 }
 
-.input-group-addon{
-  background-color: #F747EE;
-  color: white;
-}
-.posteo {
-  color: DeepPink;
-}
-.posteo strong{
-  display: block;
-}
-.posteo hr {
-  border: 1px solid #F053E9;
-}
-/* PARA CORAZON */
-.corazon {
-  font-size: 40px;
-  color: gray;
-  text-align: center;
-}
-.rojo {
-  color: red;
+
+#guardar, #limpiar{
+  background-color: pink;
 }
 
 #ale{
   margin-bottom: 20px;
 }
-footer{
-  padding: 10px;
-  background-color: #F747EE;
-}
 
-footer p{
-  color: white;
+.centro{
+
+}
+footer{
+  background-color: silver;
+  padding: 10px;
 }
 
 /* Estilos comentarios */
 .comentario{
-  background-color: #F7A4F3;
+  
   border-radius: 10px;
   padding: 5px;
   margin: 10px 0;
 }
 
 .comentario i, .comentario h3{
-  color: white;
+  
 }
 
 .comentario p{
