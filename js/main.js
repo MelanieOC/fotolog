@@ -17,11 +17,11 @@ function comentario() {
 		$.each(localStorage, (key, value)=>{
 			var array = value.split(',');
 			$("<div>").addClass('comentario row').append(
-				$('<div>').addClass('col-md-2 col-sm-2 col-xs-2').append(
-					$("<i>").addClass('fa fa-user-circle fa-5x fa-fw')
+				$('<div>').addClass('col-md-2 col-sm-4 col-xs-4 text-center').append(
+					$("<h3>").addClass('fa fa-user-circle fa-4x fa-fw')
 				)
 			).append(
-				$('<div>').addClass('col-md-10 col-sm-10 col-xs-10').append(
+				$('<div>').addClass('col-md-9 col-sm-6 col-xs-6').append(
 					$("<h3>").html(array[0])
 				).append(
 				$("<p>").html(array[1])

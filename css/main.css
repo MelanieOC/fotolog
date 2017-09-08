@@ -1,10 +1,12 @@
 body {
-  background-color: white;
+  background-color: #F5D7F4;
   color:black;
+  padding: 0;
+  margin: 0;
 }
-
-header {
-  margin-top: 20px;
+header img{
+  width: 20%;
+  margin-left: 20px;
 }
 img {
   width: 100%;
@@ -21,7 +23,7 @@ a {
   height: 100px;
 }
 h1, p{
-  color: DeepPink ;
+  color: #F053E9 ;
 }
 h1{
   font-size: 50px;
@@ -29,10 +31,13 @@ h1{
 }
 
 .input-group{
-  margin-bottom: 20px;
-  border-color: DeepPink;
+  margin-bottom: 10px;
 }
 
+.input-group-addon{
+  background-color: #F747EE;
+  color: white;
+}
 .posteo {
   color: DeepPink;
 }
@@ -40,7 +45,7 @@ h1{
   display: block;
 }
 .posteo hr {
-  border: 1px solid DeepPink;
+  border: 1px solid #F053E9;
 }
 /* PARA CORAZON */
 .corazon {
@@ -51,19 +56,31 @@ h1{
 .rojo {
   color: red;
 }
+
+#ale{
+  margin-bottom: 20px;
+}
 footer{
   padding: 10px;
+  background-color: #F747EE;
 }
 
-
+footer p{
+  color: white;
+}
 
 /* Estilos comentarios */
 .comentario{
-  background-color: #F5D7F4;
-  border-radius: 5px;
-  padding: 10px;
+  background-color: #F7A4F3;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0;
 }
 
 .comentario i, .comentario h3{
   color: white;
+}
+
+.comentario p{
+  color: black;
 }
