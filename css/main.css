@@ -7,6 +7,12 @@ header img{
   width: 20%;
   margin-left: 20px;
 }
+@media(max-width: 900px){
+  header img{
+    width: 30%;
+    margin-left: 20px;
+  }
+}
 img {
   width: 100%;
   margin-bottom: 30px;
@@ -23,7 +29,7 @@ h1{
   font-size: 200%;
   font-weight: bolder;
 }
-.formulario{
+.contenido{
    background: url('../img/fondo.jpg') no-repeat;
   background-size: cover;
   padding: 20px;
@@ -40,9 +46,16 @@ h1{
 #ale{
   margin-bottom: 20px;
 }
-
+.medio{
+  width: 70%;
+  margin: 5px auto;
+}
 .centro{
-
+  width: 40%;
+  margin: 5px auto;
+}
+.noo{
+  font-size: 3em;
 }
 footer{
   background-color: silver;
@@ -51,7 +64,6 @@ footer{
 
 /* Estilos comentarios */
 .comentario{
-  
   border-radius: 10px;
   padding: 5px;
   margin: 10px 0;
