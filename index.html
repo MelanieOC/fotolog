@@ -8,12 +8,12 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 logo">
+				<div class="col-md-3 col-sm-3 col-xs-3 logo">
 					<img src="img/fotolog-logo.png" alt="">
 				</div>
 			</div>
@@ -28,18 +28,18 @@
 	</section>
 	<section id="contenido">
 		<div class="container">
-			<div class="col-md-2 recientes">
+			<div class="col-md-2 col-sm-2 col-xs-2 recientes">
 				<a href="" class="fotos">Fotos Recientes</a>
 				<img src="img/jarcor.jpg">
 				<img src="img/foto_0920140822124434.jpg" alt="">
 				<img src="img/i-62869.jpeg" alt="">
 				<img src="img/p3.jpg" alt="">
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8 col-sm-8 col-xs-8">
 				<img src="img/m1_768_11MS.jpg" alt="">
 				<p>AqUi EStAáá Mi AmIgA ArEnItAáÁÁ</p>
 			</div>
-			<div class="col-md-2 recientes">
+			<div class="col-md-2 col-sm-2 col-xs-2 recientes">
 				<a href="" class="fotos">Fotos Recientes</a>
 				<img src="img/jarcor.jpg">
 				<img src="img/foto_0920140822124434.jpg" alt="">
@@ -52,12 +52,17 @@
 		<div class="container" id="caja">
 			<div class="row">
 				<div class="col-md-offset-3 col-md-6">
-					<form Name="formulario">
-						<h3>Nombre</h3>
-						<input type="text" id="clave">
-						<h3>Comentario</h3>
-						<textarea id="valor"></textarea>
-					</form>
+					<h3>Comentarios
+						<i class="fa fa-comments" aria-hidden="true"></i>
+					</h3>
+					<div class="input-group">
+  					<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+  					<input class="form-control" type="text" id="clave" placeholder="Name">
+					</div>
+					<div class="input-group">
+					  <span class="input-group-addon"><i class="fa fa-comment"></i></span>
+					  <textarea class="form-control" id="valor" placeholder="Comentario"></textarea>
+					</div>
 				</div>
 			</div>
 			<div class="row">

@@ -28,11 +28,9 @@ h1{
   font-weight: bolder;
 }
 
-textarea, input{
-  width: 100%;
-  border-radius: 0px;
-  border: 1px solid DeepPink;
+.input-group{
   margin-bottom: 20px;
+  border-color: DeepPink;
 }
 
 .posteo {
@@ -60,4 +58,12 @@ footer{
 
 
 /* Estilos comentarios */
+.comentario{
+  background-color: #F5D7F4;
+  border-radius: 5px;
+  padding: 10px;
+}
 
+.comentario i, .comentario h3{
+  color: white;
+}
